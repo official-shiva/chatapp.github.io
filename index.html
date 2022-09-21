@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/logo.png">
+</head>
+
+<body>
+
+    <section class="chat_section">
+
+        <div class="brand">
+            <img height="40" src="/wassup.png" alt="">
+            <h1> Shiva: Chat App</h1>
+        </div>
+
+        <div class="message_area"> </div>
+
+        <div class="writemsg">
+            <input type="text" id="textarea" placeholder="Write a message...">
+            <!-- <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea> -->
+            <button type="submit" id="sendmsg">Send</button>
+        </div>
+
+    </section>
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/client.js"></script>
+
+</html>
